@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oráculo Espiritual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Oráculo Espiritual</h1>
+            <p>Descubra seu Signo, Orixá e Santo Protetor com base na sua data de nascimento.</p>
+        </header>
+        
+        <form id="birthdate-form">
+            <label for="birthdate">Digite sua data de nascimento:</label>
+            <input type="date" id="birthdate" required>
+            <button type="submit">Consultar</button>
+        </form>
+
+        <div id="results" class="hidden">
+            <h2>Resultado da Consulta</h2>
+            <p id="signo"></p>
+            <p id="orixa"></p>
+            <p id="santo"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
